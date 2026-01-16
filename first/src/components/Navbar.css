@@ -22,11 +22,11 @@
     .searchBox {
       background-color: #343a46;
       border-radius: 20px;
-      padding: 8px 16px;
+      padding: 7px 14px;
       display: flex;
       align-items: center;
       gap: 10px;
-      width: 240px;
+      width: 50vw;
       margin-left: 10px;
     }
     .searchInput {
@@ -40,9 +40,10 @@
     .shortcut {
       font-size: 11px;
       background-color: #404756;
-      padding: 2px 6px;
+      padding: 5px 6px;
       border-radius: 4px;
       color: #99a1b3;
+      white-space: nowrap;
     }
     .navRight {
       display: flex;
