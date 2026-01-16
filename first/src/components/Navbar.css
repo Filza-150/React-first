@@ -1,94 +1,65 @@
-* {
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont;
-}
-
-.navbar {
-  height: 56px;
-  background-color: #1f2937;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  color: #e5e7eb;
-}
-
-/* Left */
-.navbar-left {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: 600;
-  color: #61dafb;
-}
-
-.logo span {
-  color: #9ca3af;
-  font-size: 14px;
-}
-
-.search-box {
-  display: flex;
-  align-items: center;
-  background-color: #111827;
-  border-radius: 8px;
-  padding: 6px 10px;
-  gap: 8px;
-  min-width: 260px;
-}
-
-.search-box input {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #e5e7eb;
-  width: 100%;
-}
-
-.search-icon {
-  color: #9ca3af;
-  font-size: 14px;
-}
-
-.shortcut {
-  font-size: 12px;
-  color: #9ca3af;
-  border: 1px solid #374151;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-/* Right */
-.navbar-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.navbar-right a {
-  color: #d1d5db;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.navbar-right a:hover {
-  color: #ffffff;
-}
-
-.icon-btn {
-  background: none;
-  border: none;
-  color: #d1d5db;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.icon-btn:hover {
-  color: #ffffff;
-}
+  /* Navbar Styling */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 24px;
+      background-color: #23272f;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #343a46;
+    }
+    .navLeft {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .versionText {
+      color: #99a1b3;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .searchBox {
+      background-color: #343a46;
+      border-radius: 20px;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 240px;
+      margin-left: 10px;
+    }
+    .searchInput {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 14px;
+      outline: none;
+      width: 100%;
+    }
+    .shortcut {
+      font-size: 11px;
+      background-color: #404756;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #99a1b3;
+    }
+    .navRight {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .navLink {
+      color: #ebedf0;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .iconGroup {
+      display: flex;
+      gap: 15px;
+      margin-left: 15px;
+      border-left: 1px solid #343a46;
+      padding-left: 15px;
+    }
+    
