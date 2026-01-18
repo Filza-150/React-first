@@ -1,7 +1,7 @@
 // main component, acts like the "home page" 
 
 import "./App.css";
-import Navbar from "./components/navbar";  
+import Navbar from "./components/Navbar";  
 
 function App() {
   // let userName = "Filza";
@@ -54,7 +54,7 @@ function App() {
       cursor: 'pointer',
       textDecoration: 'none',
     },
-    
+
     btnSecondary: {
       backgroundColor: 'transparent',
       color: '#ebedf0',
