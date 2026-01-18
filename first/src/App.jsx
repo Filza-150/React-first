@@ -1,7 +1,7 @@
 // main component, acts like the "home page" 
 
 import "./App.css";
-import Navbar from "./components/navbar";  
+import Navbar from "./scr/components/navbar";  
 
 function App() {
   // let userName = "Filza";
