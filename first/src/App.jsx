@@ -54,6 +54,7 @@ function App() {
       cursor: 'pointer',
       textDecoration: 'none',
     },
+    
     btnSecondary: {
       backgroundColor: 'transparent',
       color: '#ebedf0',
